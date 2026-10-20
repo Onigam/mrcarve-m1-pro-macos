@@ -1,0 +1,17 @@
+# Vendor package (1.1 GB of proprietary Windows/Android binaries) — kept locally, never committed
+M1-pro-3.0-tomigrate/
+
+# Reverse-engineering workspace (Ghidra projects, raw decompiler dumps of vendor code)
+re/ghidra-projects/
+re/out/
+
+# SwiftPM / build outputs
+.build/
+build/
+*.xcodeproj/
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+re/bin/
